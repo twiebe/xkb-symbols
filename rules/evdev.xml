@@ -1,0 +1,8 @@
+// Add to variantList of us layout
+        <variant>
+          <configItem>
+            <name>altgr-umlauts</name>
+            <description>English (US, with Alt-Gr Umlauts)</description>
+          </configItem>
+        </variant>
+

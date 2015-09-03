@@ -1,0 +1,15 @@
+// Append to /usr/share/X11/xkb/symbols/us
+
+xkb_symbols "altgr-umlauts" {
+
+    include "us(basic)"
+    name[Group1]= "English (US, with Alt-Gr Umlauts)";
+    
+    key <AD03> {	[	  e,	E,	EuroSign,	EuroSign		]	};
+    key <AE11> {	[     minus,	underscore,	ssharp,	ssharp	]	};
+    key <AD11> {	[ bracketleft,	braceleft,	udiaeresis,	Udiaeresis	]	};
+    key <AC10> {	[ semicolon,	colon,	odiaeresis,	Odiaeresis	]	};
+    key <AC11> {	[ apostrophe,	quotedbl,	adiaeresis,	Adiaeresis	]	};
+    
+    include "level3(ralt_switch)"
+};
